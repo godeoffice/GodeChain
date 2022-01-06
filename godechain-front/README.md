@@ -1,13 +1,4 @@
-# Substrate Front End Template
-
-This template allows you to create a front-end application that connects to a
-[Substrate](https://github.com/paritytech/substrate) node back-end with minimal
-configuration. To learn about Substrate itself, visit the
-[Substrate Developer Hub](https://substrate.dev).
-
-The template is built with [Create React App](https://github.com/facebook/create-react-app)
-and [godechain js API](https://godechain.js.org/docs/api/). Familiarity with these tools
-will be helpful, but the template strives to be self-explanatory.
+# GodeChain Front End Template
 
 ## Using The Template
 
@@ -99,15 +90,6 @@ only when `keyringState === "READY"`.
 - `apiState` - One of `"CONNECTING"`, `"READY"`, or `"ERROR"` states. `api` is valid
 only when `apiState === "READY"`.
 
-
-### TxButton Component
-
-The [TxButton](./src/substrate-lib/components/TxButton.js) handles basic
-[query](https://godechain.js.org/docs/api/start/api.query) and
-[transaction](https://godechain.js.org/docs/api/start/api.tx) requests to the
-connected node. You can reuse this component for a wide variety of queries and
-transactions. See [src/Transfer.js](./src/Transfer.js) for a transaction example
-and [src/ChainState.js](./src/ChainState.js) for a query example.
 
 ### Account Selector
 
