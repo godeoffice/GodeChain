@@ -60,6 +60,16 @@ export default function Main (props) {
             }}
           />
         </Form.Field>
+        <Form.Field>
+          <Input
+            fluid
+            label='To'
+            type='text'
+            placeholder='addressno'
+            state='addressnoTo'
+            onChange={onChange}
+          />
+        </Form.Field>
         <div style={{ overflowWrap: 'break-word' }}>{status}</div>
       </Form>
     </Grid.Column>

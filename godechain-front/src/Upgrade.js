@@ -55,11 +55,3 @@ export default function Main (props) {
     </Grid.Column>
   );
 }
-
-
-//TEST ADD
-//git pull                      1先拉去最新代码
-//git add .                     2然后去修改文件后在执行这个
-//git commit -m shuoming        3提交你的修改 -m后面是你提交说明
-//git pull                      4再拉一下代码 防止冲突
-//git push                      5最后一步 提交 
