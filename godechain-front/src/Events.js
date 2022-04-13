@@ -73,6 +73,19 @@
 //     ? <Main {...props} />
 //     : null;
 // }
+
+//           setEventFeed(e => [{
+//             key: keyNum,
+//             icon: 'bell',
+//             summary: evName,
+//             content: evParams
+//           }, ...e]);
+
+//           keyNum += 1;
+//         });
+//       });
+//     };
+
 import React, { useEffect, useState } from 'react';
 import { Table, Grid } from 'semantic-ui-react';
 import { useSubstrate } from './substrate-lib';

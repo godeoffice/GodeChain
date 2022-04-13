@@ -86,6 +86,13 @@ export default function App () {
   return (
     <SubstrateContextProvider>
       <Main />
+      <Grid.Row>
+            <Interactor accountPair={accountPair} />
+            <Events />
+          </Grid.Row>
+          <Grid.Row>
+            <TemplateModule accountPair={accountPair} />
+          </Grid.Row>
     </SubstrateContextProvider>
   );
 }

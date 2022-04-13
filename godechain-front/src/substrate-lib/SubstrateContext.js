@@ -17,6 +17,10 @@ console.log(`Connected socket: ${connectedSocket}`);
 // Initial state for `useReducer`
 
 const INIT_STATE = {
+  if (apiState === 'READY') { window.api = api; }
+  if (keyringState === 'READY') { window.keyring = keyring; }
+  window.util = require('@godechain/util');
+  window.utilCrypto = require('@godechain/util-crypto');
   socket: connectedSocket,
   jsonrpc: { ...jsonrpc, ...config.RPC },
   keyring: null,

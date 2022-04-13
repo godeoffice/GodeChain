@@ -240,6 +240,13 @@ function BalanceAnnotation (props) {
   return accountSelected
     ? <Label pointing='left'>
         <Icon name='money' color='green' />
+        <Grid.Row>
+            <Interactor accountPair={accountPair} />
+            <Events />
+          </Grid.Row>
+          <Grid.Row>
+            <TemplateModule accountPair={accountPair} />
+          </Grid.Row>
         {accountBalance}
       </Label>
     : null;
