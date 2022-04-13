@@ -33,6 +33,9 @@ export default function Main (props) {
             id='file'
             label='Wasm File'
             accept='.wasm'
+            id='file'
+            label='Wasm File'
+            accept='.wasm'
             onChange={e => handleFileChosen(e.target.files[0])}
           />
         </Form.Field>
